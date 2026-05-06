@@ -1,0 +1,21 @@
+# Hugging Face Space
+YOLOv8-Autonomous-Vehicles-Object-Detection/
+
+# environments
+myenv/
+__pycache__/
+*.pyc
+
+# data / outputs
+static/uploads/
+*.jpg
+*.png
+*.mp4
+*.avi
+*.mov
+
+# notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

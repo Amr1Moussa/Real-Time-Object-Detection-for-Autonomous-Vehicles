@@ -294,6 +294,8 @@ The EDA visualizations also help understand class balance, annotation quality, i
    git clone https://github.com/SalmaSaleh7/Autonomous-vehicles-prediction
    cd Autonomous-vehicles-prediction
    ```
+   
+note: Change the current working directory to the project folder (not the parent folder you cloned into): 
 
 2. Create a virtual environment:
 
@@ -349,78 +351,3 @@ By the end of this workflow, you will have:
 * A local application ready to run and test
 
 ```
-
-I also fixed the incomplete code block in the YOLOv8 training section and made the structure more professional while keeping your original content and workflow. :contentReference[oaicite:0]{index=0}
-```
-
-
-## How to Run
-
-### Run in Colab or Jupyter
-
-1. Open this notebook in Google Colab or a Jupyter environment.
-
-2. Upload your Kaggle API token (`kaggle.json`) when prompted.
-
-3. Run cells sequentially from top to bottom to:
-
-   * Download and extract the dataset
-   * Clean the dataset by removing unannotated images
-   * Update annotation files accordingly
-   * Perform exploratory data analysis with visualizations
-
-4. Review outputs and plots to gain insights about dataset characteristics.
-
----
-
-### Run Locally
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/SalmaSaleh7/Autonomous-vehicles-prediction
-   cd <repository_name>
-   ```
-
-2. Change the current working directory to the project folder (not the parent folder you cloned into):
-
-   ```bash
-   cd project_directory
-   ```
-
-3. Create and activate a virtual environment:
-
-   * On Windows:
-
-     ```bash
-     python -m venv myenv
-     myenv\Scripts\activate
-     ```
-   * On Mac/Linux:
-
-     ```bash
-     python3 -m venv myenv
-     source myenv/bin/activate
-     ```
-
-4. Install the required packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. Run the application:
-
-   ```bash
-   python app.py
-   ```
-
-6. Open your browser and navigate to `http://localhost:5000` to access the app.
-
-7. To deactivate the environment:
-
-   ```bash
-   deactivate
-   ```
-
-Following these steps ensures a smooth setup and avoids common issues with paths or environments.

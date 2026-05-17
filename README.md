@@ -295,7 +295,7 @@ The EDA visualizations also help understand class balance, annotation quality, i
    cd Autonomous-vehicles-prediction
    ```
    
-note: Change the current working directory to the project folder (not the parent folder you cloned into): 
+note: Change the current working directory to the project folder (not the parent folder you cloned into)
 
 2. Create a virtual environment:
 

@@ -1,4 +1,4 @@
-# COCO Dataset Collection and Exploratory Data Analysis (EDA) Notebook
+# COCO Dataset Collection and Exploratory Data Analysis (EDA) 
 
 ## Overview
 
@@ -21,7 +21,7 @@ This notebook demonstrates a complete workflow for downloading, cleaning, verify
 6. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
 7. [Additional Notes](#additional-notes)  
 8. [How to Run](#how-to-run)  
-9. [Contact](#contact)
+
 
 ---
 
